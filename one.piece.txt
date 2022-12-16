@@ -1,0 +1,51 @@
+import pygame
+import random
+
+# Initialize pygame
+pygame.init()
+
+# Set screen dimensions
+screen_width = 800
+screen_height = 600
+
+# Create the screen
+screen = pygame.display.set_mode((screen_width, screen_height))
+
+# Set the title and icon
+pygame.display.set_caption("One Piece Racing")
+icon = pygame.image.load('car_icon.png')
+pygame.display.set_icon(icon)
+
+# Load car images
+red_car_img = pygame.image.load('red_car.png')
+blue_car_img = pygame.image.load('blue_car.png')
+green_car_img = pygame.image.load('green_car.png')
+yellow_car_img = pygame.image.load('yellow_car.png')
+
+# Load track images
+marineford_img = pygame.image.load('marineford.png')
+dressrosa_img = pygame.image.load('dressrosa.png')
+enies_lobby_img = pygame.image.load('enies_lobby.png')
+water_7_img = pygame.image.load('water_7.png')
+skypiea_img = pygame.image.load('skypiea.png')
+thriller_bark_img = pygame.image.load('thriller_bark.png')
+impel_down_img = pygame.image.load('impel_down.png')
+marineford_img = pygame.image.load('marineford.png')
+sabaody_archipelago_img = pygame.image.load('sabaody_archipelago.png')
+whole_cake_island_img = pygame.image.load('whole_cake_island.png')
+
+# Load character images
+ichigo_img = pygame.image.load('ichigo.png')
+rin_img = pygame.image.load('rin.png')
+sosuke_img = pygame.image.load('sosuke.png')
+yoruichi_img = pygame.image.load('yoruichi.png')
+ulquiorra_img = pygame.image.load('ulquiorra.png')
+grimmjow_img = pygame.image.load('grimmjow.png')
+byakuya_img = pygame.image.load('byakuya.png')
+renji_img = pygame.image.load('renji.png')
+toushirou_img = pygame.image.load('toushirou.png')
+kenpachi_img = pygame.image.load('kenpachi.png')
+aizen_img = pygame.image.load('aizen.png')
+isshin_img = pygame.image.load('isshin.png')
+shunsui_img = pygame.image.load('shunsui.png')
+jushiro_img = pygame.image.load('jushiro
